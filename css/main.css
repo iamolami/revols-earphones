@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; }
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'lato', sans-serif;
+  font-weight: 400; }
+
+.UpperBar {
+  width: 100%;
+  height: 3rem;
+  background-color: #fff;
+  text-align: center; }
+  .UpperBar--text {
+    font-size: 1.6rem;
+    color: #37b3f6;
+    margin-top: 1.2rem; }
+
+.Header {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/HeaderBg.jpg);
+  background-size: 100%;
+  background-position: bottom; }
